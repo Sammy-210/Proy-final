@@ -107,12 +107,19 @@ a.aprender-mas{
     border-radius:30px;
     font-size:20px;
     transition:.3s;
+    background: linear-gradient(to top, #319b41, #0d5c25);
+    box-shadow: 0 8px 0 0 #20732f,
+                0 0 25px 5px #fff;
 }
 
 a.aprender-mas:hover{
+    box-shadow: 0 0 25px 5px #000;
     background:#cf5b8d;
 }
-
+.presentacion img{
+    float: right;
+    position: relative;
+    top: 30px;
 /* ACCESO RAPIDO */
 .acceso-rapido ul{
     display: grid;
