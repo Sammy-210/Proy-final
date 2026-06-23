@@ -107,7 +107,6 @@ a.aprender-mas{
     border-radius:30px;
     font-size:20px;
     transition:.3s;
-    
 }
 
 a.aprender-mas:hover{
@@ -901,4 +900,60 @@ body{
     font-size:22px;
     font-weight:bold;
     color:#555;
+}
+
+/* ==========================
+   SECCION SOLICITA AYUDA
+========================== */
+
+.suscripcion{
+    background:#d96c9e;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.suscripcion h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.suscripcion p{
+    max-width:800px;
+    margin:auto;
+    margin-bottom:30px;
+    line-height:1.8;
+    font-size:18px;
+}
+
+.suscripcion form{
+    max-width:600px;
+    margin:auto;
+}
+
+.suscripcion input,
+.suscripcion textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.suscripcion textarea{
+    resize:vertical;
+}
+
+.suscripcion input[type="submit"]{
+    background:#ffffff;
+    color:#d96c9e;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.suscripcion input[type="submit"]:hover{
+    background:#f5f5f5;
+    transform:scale(1.03);
 }
