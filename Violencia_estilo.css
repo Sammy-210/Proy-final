@@ -78,6 +78,9 @@ body{
     font-size:42px;
     text-align:center;
     line-height:0.9em;
+    text-shadow:
+        2px 2px 3px #000,
+        0 0 15px rgba(255,255,255,.8);
 }
 
 .introduccion-presentacion h1 span{
@@ -107,8 +110,6 @@ a.aprender-mas{
     border-radius:30px;
     font-size:20px;
     transition:.3s;
-}
-{
    box-shadow:
         0 0 30px rgba(255,255,255,0.8),
         0 0 60px rgba(255,255,255,0.5);
