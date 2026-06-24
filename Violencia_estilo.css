@@ -121,8 +121,8 @@ a.aprender-mas:hover{
     text-align: center;
  }
  .acceso-rapido figure img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 }   
 .acceso-rapido{
@@ -144,7 +144,7 @@ a.aprender-mas:hover{
 }
 
 .acceso-rapido img{
-    width:90px;
+    width:50px;
     border-radius:50%;
 }
 
@@ -325,12 +325,12 @@ a.aprender-mas:hover{
 .social{
     position:fixed;
     right:0;
-    top:35%;
+    top:65%;
 }
 
 .social a{
     display:block;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 .social img{
@@ -338,7 +338,7 @@ a.aprender-mas:hover{
     border-radius:50%;
     box-shadow:0 0 8px rgba(0,0,0,.2);
 }
-```css
+
 /* ==========================
    ESTILOS GENERALES
 ========================== */
