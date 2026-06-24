@@ -910,16 +910,16 @@ body{
     background:#d96c9e;
     color:white;
     text-align:center;
-    padding:60px 20px;
+    padding:20px 20px;
 }
 
 .suscripcion h2{
-    font-size:40px;
+    font-size:20px;
     margin-bottom:20px;
 }
 
 .suscripcion p{
-    max-width:800px;
+    max-width:80px;
     margin:auto;
     margin-bottom:30px;
     line-height:1.8;
@@ -927,13 +927,13 @@ body{
 }
 
 .suscripcion form{
-    max-width:600px;
+    max-width:40px;
     margin:auto;
 }
 
 .suscripcion input,
 .suscripcion textarea{
-    width:100%;
+    width:50%;
     padding:15px;
     margin:10px 0;
     border:none;
