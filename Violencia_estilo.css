@@ -62,29 +62,17 @@ body{
 
 /* PRESENTACION */
 
-.introduccion-presentacion{
-    float:left;
-    width:55%;
-    position:relative;
-}
-
-.introduccion-presentacion::before{
-    content:"";
-    position:absolute;
-    width:500px;
-    height:300px;
-    left:50%;
-    top:50%;
-    transform:translate(-50%,-50%);
-
-    background:radial-gradient(
-        circle,
-        rgba(255,255,255,.45) 0%,
-        rgba(255,255,255,.20) 40%,
-        rgba(255,255,255,0) 75%
+.presentacion{
+    background: radial-gradient(
+        circle at center,
+        #8dbbe6 0%,
+        #5a9ad6 35%,
+        #2f7fc4 65%,
+        #0f5ea8 100%
     );
 
-    pointer-events:none;
+    overflow:hidden;
+    padding:30px 0;
 }
 
 .introduccion-presentacion{
