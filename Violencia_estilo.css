@@ -65,10 +65,11 @@ body{
 .presentacion{
     background:
     radial-gradient(
-        circle at center,
-        rgba(255,255,255,.15) 0%,
-        rgba(255,255,255,.05) 35%,
-        transparent 70%
+        circle at 30% 25%,
+        rgba(255,255,255,.8) 0%,
+        rgba(255,255,255,.5) 20%,
+        rgba(255,255,255,.2) 40%,
+        transparent 60%
     ),
     linear-gradient(to right,#ffd9e8,#ffc4dd);
 
@@ -79,6 +80,15 @@ body{
 .introduccion-presentacion{
     float:left;
     width:55%;
+      background: radial-gradient(
+        circle,
+        rgba(255,255,255,.7) 0%,
+        rgba(255,255,255,.3) 40%,
+        transparent 75%
+    );
+
+    border-radius:50%;
+}
 }
 
 .introduccion-presentacion h1{
@@ -104,10 +114,15 @@ body{
 }
 
 .presentacion img{
+    float:right;
+    width:420px;
+    max-width:40%;
+    border-radius:20px;
+
     box-shadow:
-    0 0 15px rgba(255,255,255,.5),
-    0 0 30px rgba(255,255,255,.3),
-    0 0 15px rgba(0,0,0,.2);
+        0 0 15px rgba(255,255,255,.5),
+        0 0 30px rgba(255,255,255,.3),
+        0 0 15px rgba(0,0,0,.2);
 }
 
 /* BOTON */
