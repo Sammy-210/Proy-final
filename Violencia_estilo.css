@@ -61,18 +61,12 @@ body{
 }
 
 /* PRESENTACION */
-
 .presentacion{
-    background:
-        radial-gradient(
-            ellipse 900px 500px at 30% 20%,
-            rgba(255,255,255,.9) 0%,
-            rgba(255,255,255,.55) 25%,
-            rgba(255,255,255,.15) 50%,
-            transparent 80%
-        ),
-        #f4c9d8;
+    background:linear-gradient(to right,#ffd9e8,#ffc4dd);
+    overflow:hidden;
+    padding:30px 0;
 }
+
 .introduccion-presentacion{
     float:left;
     width:55%;
@@ -85,24 +79,17 @@ body{
 
     border-radius:50%;
 }
-}
 
 .introduccion-presentacion h1{
     color:#c04b7c;
-    font-size:60px;
+    font-size:42px;
     text-align:center;
-
-    text-shadow:
-        3px 3px 5px rgba(0,0,0,.35),
-        0 0 10px rgba(255,255,255,.7);
+    line-height:0.9em;
 }
 
 .introduccion-presentacion h1 span{
     font-size:18px;
 
-    text-shadow:
-        2px 2px 4px rgba(0,0,0,.35),
-        0 0 8px rgba(255,255,255,.7);
 }
 
 .introduccion-presentacion p{
@@ -127,11 +114,9 @@ a.aprender-mas{
     text-decoration:none;
     border-radius:30px;
     font-size:20px;
+    transition:.3s;
+}     
 
-    box-shadow:
-        0 0 15px rgba(255,255,255,.6),
-        0 0 30px rgba(255,255,255,.4);
-}   
 a.aprender-mas:hover{
     background:#cf5b8d;
 }
