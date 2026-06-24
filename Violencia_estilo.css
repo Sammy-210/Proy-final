@@ -64,19 +64,15 @@ body{
 
 .presentacion{
     background:
-    radial-gradient(
-        circle at 30% 25%,
-        rgba(255,255,255,.8) 0%,
-        rgba(255,255,255,.5) 20%,
-        rgba(255,255,255,.2) 40%,
-        transparent 6%
-    ),
-    linear-gradient(to right,#ffd9e8,#ffc4dd);
-
-    overflow:hidden;
-    padding:30px 0;
+        radial-gradient(
+            ellipse 900px 500px at 30% 20%,
+            rgba(255,255,255,.9) 0%,
+            rgba(255,255,255,.55) 25%,
+            rgba(255,255,255,.15) 50%,
+            transparent 80%
+        ),
+        #f4c9d8;
 }
-
 .introduccion-presentacion{
     float:left;
     width:55%;
