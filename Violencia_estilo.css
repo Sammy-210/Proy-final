@@ -63,16 +63,8 @@ body{
 /* PRESENTACION */
 
 .presentacion{
-    background:
-        radial-gradient(
-            circle 450px at 50% 20%,
-            rgba(255,255,255,.55) 0%,
-            rgba(255,255,255,.20) 40%,
-            transparent 75%
-        ),
-        linear-gradient(to right,#f8c8dc,#f5b7d2);
+    background:red;
 }
-
 .introduccion-presentacion{
     float:left;
     width:55%;
