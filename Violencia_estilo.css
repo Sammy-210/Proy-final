@@ -63,7 +63,9 @@ body{
 /* PRESENTACION */
 
 .presentacion{
-    background:red;
+    background: linear-gradient(to right,#ffd9e8,#ffc4dd);
+    overflow:hidden;
+    padding:30px 0;
 }
 .introduccion-presentacion{
     float:left;
