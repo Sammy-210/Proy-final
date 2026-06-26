@@ -63,7 +63,7 @@ body{
 /* PRESENTACION */
 
 .presentacion{
-    background:linear-gradient(to right,#ffd9e8,#ffc4dd);
+    background: radial-gradient(280px at 25% 10%,#ffd9e8,#ffc4dd);
     overflow:hidden;
     padding:30px 0;
 }
@@ -107,8 +107,10 @@ a.aprender-mas{
     border-radius:30px;
     font-size:20px;
     transition:.3s;
+    box-shadow:
+        0 8px 0 0 #20732f,
+        0 0 25px 5px #fff;
 }
-
 a.aprender-mas:hover{
     background:#cf5b8d;
 }
