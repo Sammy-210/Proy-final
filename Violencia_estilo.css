@@ -121,8 +121,8 @@ a.aprender-mas:hover{
     text-align: center;
  }
  .acceso-rapido figure img{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }   
 .acceso-rapido{
@@ -144,7 +144,7 @@ a.aprender-mas:hover{
 }
 
 .acceso-rapido img{
-    width:50px;
+    width:30px;
     border-radius:50%;
 }
 
@@ -185,7 +185,7 @@ a.aprender-mas:hover{
 
 .articulos img{
     float:left;
-    width:180px;
+    width:280px;
     margin-right:15px;
     border-radius:15px;
 }
@@ -356,7 +356,7 @@ body{
 }
 
 .contenedor{
-    width:90%;
+    width:30%;
     max-width:1200px;
     margin:auto;
 }
@@ -418,7 +418,7 @@ body{
 }
 
 .pagina-interna img{
-    width:350px;
+    width:150px;
     max-width:100%;
     border-radius:20px;
     margin-bottom:30px;
@@ -426,7 +426,7 @@ body{
 }
 
 .pagina-interna p{
-    width:80%;
+    width:40%;
     margin:auto;
     margin-bottom:25px;
     font-size:22px;
@@ -467,7 +467,7 @@ body{
 
 .tarjeta{
     background:white;
-    width:280px;
+    width:180px;
     padding:25px;
     border-radius:15px;
     box-shadow:0 0 15px rgba(0,0,0,.15);
@@ -485,7 +485,7 @@ body{
 }
 
 .tarjeta p{
-    width:100%;
+    width:25%;
     font-size:18px;
 }
 
@@ -495,7 +495,7 @@ body{
 
 .datos-contacto{
     background:white;
-    width:70%;
+    width:30%;
     margin:40px auto;
     padding:30px;
     border-radius:20px;
@@ -518,7 +518,7 @@ body{
 ========================== */
 
 .formulario{
-    width:600px;
+    width:60px;
     max-width:90%;
     margin:auto;
 }
@@ -593,12 +593,12 @@ body{
     }
 
     .pagina-interna p{
-        width:95%;
+        width:35%;
         font-size:18px;
     }
 
     .datos-contacto{
-        width:95%;
+        width:30%;
     }
 
     .tarjetas{
@@ -606,10 +606,9 @@ body{
         align-items:center;
     }
 }
-```css
 .tarjeta{
     background:white;
-    width:280px;
+    width:100px;
     padding:25px;
     border-radius:15px;
     box-shadow:0 0 15px rgba(0,0,0,.15);
@@ -645,7 +644,7 @@ body{
 }
 
 .contenedor{
-    width:90%;
+    width:40%;
     max-width:1200px;
     margin:auto;
 }
@@ -712,14 +711,14 @@ body{
 }
 
 .pagina-interna p{
-    width:80%;
+    width:30%;
     margin:15px auto;
     font-size:20px;
     line-height:1.8;
 }
 
 .pagina-interna img{
-    width:350px;
+    width:150px;
     max-width:100%;
     border-radius:20px;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
@@ -740,7 +739,7 @@ body{
 
 .tarjeta{
     background:white;
-    width:280px;
+    width:100px;
     padding:25px;
     border-radius:20px;
     text-decoration:none;
@@ -764,7 +763,7 @@ body{
 
 .datos-contacto{
     background:white;
-    width:70%;
+    width:30%;
     margin:30px auto;
     padding:30px;
     border-radius:20px;
@@ -780,14 +779,14 @@ body{
 ========================== */
 
 .formulario{
-    width:600px;
+    width:40px;
     max-width:95%;
     margin:auto;
 }
 
 .formulario input,
 .formulario textarea{
-    width:100%;
+    width:20%;
     padding:15px;
     margin:10px 0;
     border:none;
@@ -879,7 +878,7 @@ body{
 
 .mapa{
     background:white;
-    width:70%;
+    width:50%;
     margin:30px auto;
     padding:30px;
     border-radius:20px;
