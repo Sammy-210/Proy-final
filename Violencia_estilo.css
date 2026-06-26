@@ -72,6 +72,8 @@ body{
 .introduccion-presentacion{
     float:left;
     width:55%;
+     box-shadow:
+        0 0 25px 5px #fff;
 }
 
 .introduccion-presentacion h1{
@@ -79,14 +81,20 @@ body{
     font-size:42px;
     text-align:center;
     line-height:0.9em;
+     box-shadow:
+        0 0 25px 5px #fff;
 }
 
 .introduccion-presentacion h1 span{
     font-size:18px;
+     box-shadow:
+        0 0 25px 5px #fff;
 }
 
 .introduccion-presentacion p{
     text-align:justify;
+     box-shadow:
+        0 0 25px 5px #fff;
 }
 
 .presentacion img{
